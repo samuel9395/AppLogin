@@ -22,6 +22,7 @@ export default function SignIn() {
                 <TextInput
                 placeholder="Digite sua senha..."
                 style={styles.input}
+                secureTextEntry={true}
                 />
 
                 <TouchableOpacity style={styles.buttom}>
